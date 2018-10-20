@@ -18,7 +18,24 @@ class TodoController < ApplicationController
           
          elsif todo_id == '4'
            @todo_description = "Come to school on time"
+          @todo_pomodoro_estimate = 5
+          
+          elsif todo_id == '5'
+           @todo_description = "Eat in class"
+          @todo_pomodoro_estimate = 6
+          
+          elsif todo_id == '6'
+           @todo_description = "Bully Peers and Staff"
+          @todo_pomodoro_estimate = 7
+          
+          elsif todo_id == '7'
+           @todo_description = "Sleep in class"
           @todo_pomodoro_estimate = 4 
+          
+          elsif todo_id == '8'
+           @todo_description = "Get referred out of class"
+          @todo_pomodoro_estimate = 4 
+          
           
           
         end
